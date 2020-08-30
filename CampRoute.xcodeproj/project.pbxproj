@@ -79,13 +79,10 @@
 		C2C299CC24FB3C97009D9DE1 /* CampRoute */ = {
 			isa = PBXGroup;
 			children = (
-				C2C299CD24FB3C97009D9DE1 /* AppDelegate.swift */,
-				C2C299CF24FB3C97009D9DE1 /* SceneDelegate.swift */,
-				C2C299D124FB3C97009D9DE1 /* ViewController.swift */,
-				C2C299D324FB3C97009D9DE1 /* Main.storyboard */,
-				C2C299D624FB3C9C009D9DE1 /* Assets.xcassets */,
-				C2C299D824FB3C9C009D9DE1 /* LaunchScreen.storyboard */,
-				C2C299DB24FB3C9C009D9DE1 /* Info.plist */,
+				C2C299F024FB3D23009D9DE1 /* AppDelegate */,
+				C2C299F224FB3D98009D9DE1 /* Resources */,
+				C2C299EF24FB3D06009D9DE1 /* Storyboards */,
+				C2C299F124FB3D44009D9DE1 /* ViewControllers */,
 			);
 			path = CampRoute;
 			sourceTree = "<group>";
@@ -97,6 +94,41 @@
 				C2C299E624FB3C9C009D9DE1 /* Info.plist */,
 			);
 			path = CampRouteTests;
+			sourceTree = "<group>";
+		};
+		C2C299EF24FB3D06009D9DE1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C2C299D824FB3C9C009D9DE1 /* LaunchScreen.storyboard */,
+				C2C299D324FB3C97009D9DE1 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C2C299F024FB3D23009D9DE1 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				C2C299CD24FB3C97009D9DE1 /* AppDelegate.swift */,
+				C2C299CF24FB3C97009D9DE1 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		C2C299F124FB3D44009D9DE1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C2C299D124FB3C97009D9DE1 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C2C299F224FB3D98009D9DE1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C2C299D624FB3C9C009D9DE1 /* Assets.xcassets */,
+				C2C299DB24FB3C9C009D9DE1 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,7 +396,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WBKZZ224G6;
-				INFOPLIST_FILE = CampRoute/Info.plist;
+				INFOPLIST_FILE = CampRoute/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -382,7 +414,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WBKZZ224G6;
-				INFOPLIST_FILE = CampRoute/Info.plist;
+				INFOPLIST_FILE = CampRoute/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
